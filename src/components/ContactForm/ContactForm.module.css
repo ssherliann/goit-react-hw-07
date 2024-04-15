@@ -1,0 +1,18 @@
+.contactFormInput {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.btnAddcontact {
+    display: flex;
+    margin: 10px auto;
+}
+
+.contactFormContainer {
+    border: #111 solid 1px;
+    border-radius: 4px;
+    width: 220px;
+    height: 100%;
+}

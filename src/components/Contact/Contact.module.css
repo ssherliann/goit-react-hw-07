@@ -1,0 +1,24 @@
+.contactContainer {
+    display: flex;
+    align-items: center;
+    border: #111 solid 1px;
+    border-radius: 4px;
+    width: 200px;
+}
+
+.contactInfo {
+    display: inline;
+    gap: 10px;
+    width: 130px;
+    margin: 5px;
+}
+
+p {
+    margin: 0; 
+}
+
+.deleteButton {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+}
