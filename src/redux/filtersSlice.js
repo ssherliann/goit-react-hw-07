@@ -3,7 +3,7 @@ import { contactsInitialState } from './contactsSlice';
 
 const filtersSlice = createSlice({
     name: 'filters',
-    initialState: {
+    initialState: { 
         name: contactsInitialState.filters.name,
     },
     reducers: {

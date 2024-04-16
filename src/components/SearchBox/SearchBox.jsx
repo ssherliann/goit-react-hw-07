@@ -7,7 +7,7 @@ export default function SearchBox() {
     const inputValue = useSelector(selectNameFilter);
 
     const handleChange = (event) => {
-        dispatch(changeFilter({ inputValue: event.currentTarget.value }));
+        dispatch(changeFilter({ inputValue: event.target.value }));
     };
 
     return (
